@@ -10,10 +10,10 @@ mysql -u username -p
 CREATE DATABASE food_ordering_db;
 USE food_ordering_db;
 exit
-mysql -u username -p food_ordering_db < NEXUS_RESTAURANT.sql
+mysql -u username -p food_ordering_db < path/to/FoodOrderingWebsite.sql
 node -v
 npm -v
-cd NEXUS_RESTAURANT 
+cd project-folder
 npm install
 npm start
 Server running at http://localhost:3000
